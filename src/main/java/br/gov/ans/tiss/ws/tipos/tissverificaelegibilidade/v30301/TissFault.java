@@ -1,9 +1,9 @@
 
-package com.spin.verificaelegibilidade.tiss.br.gov.ans.tiss.ws.tipos.tissverificaelegibilidade.v30301;
+package br.gov.ans.tiss.ws.tipos.tissverificaelegibilidade.v30301;
 
 import javax.xml.ws.WebFault;
 
-import com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.v30301.TissFaultWS;
+import br.gov.ans.padroes.tiss.schemas.v30301.TissFaultWS;
 
 
 /**

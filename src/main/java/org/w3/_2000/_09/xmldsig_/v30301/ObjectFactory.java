@@ -1,5 +1,5 @@
 
-package com.spin.verificaelegibilidade.tiss.org.w3._2000._09.xmldsig_.v30301;
+package org.w3._2000._09.xmldsig_.v30301;
 
 import java.math.BigInteger;
 import javax.xml.bind.JAXBElement;

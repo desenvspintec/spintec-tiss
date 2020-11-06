@@ -1,4 +1,4 @@
-package com.spin.verificaelegibilidade.tiss.utils;
+package utils;
 
 import java.text.SimpleDateFormat;
 import java.time.Duration;

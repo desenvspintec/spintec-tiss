@@ -1,4 +1,4 @@
-package com.spin.verificaelegibilidade.tiss.br.gov.ans;
+package br.gov.ans;
 
 public enum TipoTransacaoTiss {
 

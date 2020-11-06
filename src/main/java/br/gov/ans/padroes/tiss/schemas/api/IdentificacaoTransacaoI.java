@@ -1,4 +1,4 @@
-package com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.api;
+package br.gov.ans.padroes.tiss.schemas.api;
 
 import javax.xml.datatype.XMLGregorianCalendar;
 

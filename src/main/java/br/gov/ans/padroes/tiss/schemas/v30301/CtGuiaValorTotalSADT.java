@@ -1,5 +1,5 @@
 
-package com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.v30301;
+package br.gov.ans.padroes.tiss.schemas.v30301;
 
 import java.math.BigDecimal;
 import javax.xml.bind.annotation.XmlAccessType;

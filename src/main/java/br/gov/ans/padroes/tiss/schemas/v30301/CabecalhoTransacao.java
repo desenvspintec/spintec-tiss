@@ -1,5 +1,5 @@
 
-package com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.v30301;
+package br.gov.ans.padroes.tiss.schemas.v30301;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -8,12 +8,12 @@ import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.datatype.XMLGregorianCalendar;
 
-import com.spin.verificaelegibilidade.tiss.br.gov.ans.TipoTransacaoTiss;
-import com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.api.CabecalhoTransacaoTISSI;
-import com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.api.DestinoI;
-import com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.api.IdentificacaoPrestadorI;
-import com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.api.IdentificacaoTransacaoI;
-import com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.api.OrigemI;
+import br.gov.ans.TipoTransacaoTiss;
+import br.gov.ans.padroes.tiss.schemas.api.CabecalhoTransacaoTISSI;
+import br.gov.ans.padroes.tiss.schemas.api.DestinoI;
+import br.gov.ans.padroes.tiss.schemas.api.IdentificacaoPrestadorI;
+import br.gov.ans.padroes.tiss.schemas.api.IdentificacaoTransacaoI;
+import br.gov.ans.padroes.tiss.schemas.api.OrigemI;
 
 
 /**

@@ -1,5 +1,5 @@
 
-package com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.v30301;
+package br.gov.ans.padroes.tiss.schemas.v30301;
 
 import javax.xml.bind.annotation.XmlEnum;
 import javax.xml.bind.annotation.XmlEnumValue;

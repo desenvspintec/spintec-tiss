@@ -1,5 +1,5 @@
 
-package com.spin.verificaelegibilidade.tiss.br.gov.ans.tiss.ws.tipos.tissverificaelegibilidade.v30301;
+package br.gov.ans.tiss.ws.tipos.tissverificaelegibilidade.v30301;
 
 import java.net.MalformedURLException;
 import java.net.URL;

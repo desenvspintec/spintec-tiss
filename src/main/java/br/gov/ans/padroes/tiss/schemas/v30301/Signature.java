@@ -1,11 +1,11 @@
 
-package com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.v30301;
+package br.gov.ans.padroes.tiss.schemas.v30301;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlType;
 
-import com.spin.verificaelegibilidade.tiss.org.w3._2000._09.xmldsig_.v30301.SignatureType;
+import org.w3._2000._09.xmldsig_.v30301.SignatureType;
 
 
 /**

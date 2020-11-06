@@ -1,5 +1,5 @@
 
-package com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.v30301;
+package br.gov.ans.padroes.tiss.schemas.v30301;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,8 +10,8 @@ import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.datatype.XMLGregorianCalendar;
 
-import com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.api.CtElegibilidadeReciboI;
-import com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.api.MotivosNegativaI;
+import br.gov.ans.padroes.tiss.schemas.api.CtElegibilidadeReciboI;
+import br.gov.ans.padroes.tiss.schemas.api.MotivosNegativaI;
 
 
 /**

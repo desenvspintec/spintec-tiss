@@ -1,5 +1,5 @@
 
-package com.spin.verificaelegibilidade.tiss.org.w3._2000._09.xmldsig_.v30301;
+package org.w3._2000._09.xmldsig_.v30301;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
-import com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.v30301.Signature;
+import br.gov.ans.padroes.tiss.schemas.v30301.Signature;
 
 
 /**

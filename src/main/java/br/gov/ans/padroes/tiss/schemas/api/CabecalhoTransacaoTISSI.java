@@ -1,6 +1,6 @@
-package com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.api;
+package br.gov.ans.padroes.tiss.schemas.api;
 
-import com.spin.verificaelegibilidade.tiss.br.gov.ans.TipoTransacaoTiss;
+import br.gov.ans.TipoTransacaoTiss;
 
 public interface CabecalhoTransacaoTISSI {
 

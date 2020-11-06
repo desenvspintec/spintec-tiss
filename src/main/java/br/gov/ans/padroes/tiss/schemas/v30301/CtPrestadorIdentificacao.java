@@ -1,5 +1,5 @@
 
-package com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.v30301;
+package br.gov.ans.padroes.tiss.schemas.v30301;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
 
-import com.spin.verificaelegibilidade.tiss.br.gov.ans.padroes.tiss.schemas.api.CtPrestadorIdentificacaoI;
+import br.gov.ans.padroes.tiss.schemas.api.CtPrestadorIdentificacaoI;
 
 
 /**
