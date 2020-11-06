@@ -1,5 +1,5 @@
 
-package br.gov.ans.tiss.ws.tipos.tissverificaelegibilidade.v30301;
+package br.gov.ans.tiss.ws.tipos.v30301.exception;
 
 import javax.xml.ws.WebFault;
 
