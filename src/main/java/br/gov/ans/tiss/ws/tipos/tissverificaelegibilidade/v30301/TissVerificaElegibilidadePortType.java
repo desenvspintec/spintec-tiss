@@ -1,10 +1,5 @@
 
-package br.gov.ans.tiss.ws.tipos.v30301.tissverificaelegibilidade;
-
-import br.gov.ans.padroes.tiss.schemas.v30301.ObjectFactory;
-import br.gov.ans.padroes.tiss.schemas.v30301.PedidoElegibilidadeWS;
-import br.gov.ans.padroes.tiss.schemas.v30301.RespostaElegibilidadeWS;
-import br.gov.ans.tiss.ws.tipos.v30301.exception.TissFault;
+package br.gov.ans.tiss.ws.tipos.tissverificaelegibilidade.v30301;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -12,6 +7,10 @@ import javax.jws.WebResult;
 import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 import javax.xml.bind.annotation.XmlSeeAlso;
+
+import br.gov.ans.padroes.tiss.schemas.v30301.ObjectFactory;
+import br.gov.ans.padroes.tiss.schemas.v30301.PedidoElegibilidadeWS;
+import br.gov.ans.padroes.tiss.schemas.v30301.RespostaElegibilidadeWS;
 
 
 /**

@@ -1,6 +1,8 @@
 
 package br.gov.ans.padroes.tiss.schemas.v30301;
 
+import br.gov.ans.padroes.tiss.schemas.api.CtSolicitacaoProcedimentoI;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlType;
@@ -25,7 +27,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "ct_solicitacaoProcedimento")
 public class CtSolicitacaoProcedimento
-    extends CtmSolicitacaoLote
+    extends CtmSolicitacaoLote implements CtSolicitacaoProcedimentoI
 {
 
 

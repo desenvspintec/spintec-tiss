@@ -36,7 +36,6 @@ import javax.xml.bind.annotation.XmlType;
 })
 public class CtProcedimentoDados {
 
-    @XmlElement(required = true)
     protected String codigoTabela;
     @XmlElement(required = true)
     protected String codigoProcedimento;

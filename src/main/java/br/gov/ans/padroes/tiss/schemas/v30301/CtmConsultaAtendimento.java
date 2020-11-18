@@ -161,7 +161,6 @@ public class CtmConsultaAtendimento {
     })
     public static class Procedimento {
 
-        @XmlElement(required = true)
         protected String codigoTabela;
         @XmlElement(required = true)
         protected String codigoProcedimento;

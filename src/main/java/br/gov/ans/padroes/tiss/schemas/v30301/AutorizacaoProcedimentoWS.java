@@ -1,6 +1,9 @@
 
 package br.gov.ans.padroes.tiss.schemas.v30301;
 
+import br.gov.ans.padroes.tiss.schemas.api.MensagemTissWSI;
+import br.gov.ans.padroes.tiss.schemas.api.RespostaAutorizacaoProcedimentoWSI;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -38,7 +41,7 @@ import javax.xml.bind.annotation.XmlType;
     "signature"
 })
 @XmlRootElement(name = "autorizacaoProcedimentoWS")
-public class AutorizacaoProcedimentoWS {
+public class AutorizacaoProcedimentoWS implements RespostaAutorizacaoProcedimentoWSI {
 
     @XmlElement(required = true)
     protected CabecalhoTransacao cabecalho;
