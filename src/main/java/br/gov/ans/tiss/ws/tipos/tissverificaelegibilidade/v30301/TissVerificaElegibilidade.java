@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "tissVerificaElegibilidade", targetNamespace = "http://www.ans.gov.br/tiss/ws/tipos/tissverificaelegibilidade/v30301", wsdlLocation = "http://webservicehml.unimedblumenau.com.br:8082/TISS30301OPS/tissVerificaElegibilidade?wsdl")
+@WebServiceClient(name = "tissVerificaElegibilidade", targetNamespace = "http://www.ans.gov.br/tiss/ws/tipos/tissverificaelegibilidade/v30301", wsdlLocation = "http://url_webservice/TISS30301OPS/tissVerificaElegibilidade?wsdl")
 public class TissVerificaElegibilidade
     extends Service
 {
@@ -30,7 +30,7 @@ public class TissVerificaElegibilidade
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://webservicehml.unimedblumenau.com.br:8082/TISS30301OPS/tissVerificaElegibilidade?wsdl");
+            url = new URL("http://url_webservice/TISS30301OPS/tissVerificaElegibilidade?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }

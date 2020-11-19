@@ -59,8 +59,8 @@ public class PGPDataType {
      * <p>
      * Voc� est� obtendo esta propriedade "catch-all" pelo seguinte motivo: 
      * O nome do campo "PGPKeyPacket" � usado por duas partes diferentes de um esquema. Consulte: 
-     * linha 200 de http://tiss.unimedlitoral.com.br:8080/TISS30500OPS/tissSolicitacaoProcedimento?xsd=7
-     * linha 196 de http://tiss.unimedlitoral.com.br:8080/TISS30500OPS/tissSolicitacaoProcedimento?xsd=7
+     * linha 200 de http://url_webservice/TISS30500OPS/tissSolicitacaoProcedimento?xsd=7
+     * linha 196 de http://url_webservice/TISS30500OPS/tissSolicitacaoProcedimento?xsd=7
      * <p>
      * Para eliminar esta propriedade, aplique uma personaliza��o de propriedade a uma 
      * das seguintes declara��es, a fim de alterar seus nomes: 
