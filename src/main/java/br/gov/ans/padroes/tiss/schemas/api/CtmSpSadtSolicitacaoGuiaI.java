@@ -1,8 +1,8 @@
 package br.gov.ans.padroes.tiss.schemas.api;
 
-import br.gov.ans.padroes.tiss.schemas.v30301.CtBeneficiarioDados;
-import br.gov.ans.padroes.tiss.schemas.v30301.CtGuiaCabecalho;
-import br.gov.ans.padroes.tiss.schemas.v30301.CtmSpSadtSolicitacaoGuia;
+import br.gov.ans.padroes.tiss.schemas.CtBeneficiarioDados;
+import br.gov.ans.padroes.tiss.schemas.CtGuiaCabecalho;
+import br.gov.ans.padroes.tiss.schemas.CtmSpSadtSolicitacaoGuia;
 
 import javax.xml.datatype.XMLGregorianCalendar;
 import java.util.List;

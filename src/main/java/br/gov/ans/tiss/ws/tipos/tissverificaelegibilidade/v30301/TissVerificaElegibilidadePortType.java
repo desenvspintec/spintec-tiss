@@ -8,9 +8,9 @@ import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 import javax.xml.bind.annotation.XmlSeeAlso;
 
-import br.gov.ans.padroes.tiss.schemas.v30301.ObjectFactory;
-import br.gov.ans.padroes.tiss.schemas.v30301.PedidoElegibilidadeWS;
-import br.gov.ans.padroes.tiss.schemas.v30301.RespostaElegibilidadeWS;
+import br.gov.ans.padroes.tiss.schemas.ObjectFactory;
+import br.gov.ans.padroes.tiss.schemas.PedidoElegibilidadeWS;
+import br.gov.ans.padroes.tiss.schemas.RespostaElegibilidadeWS;
 
 
 /**
@@ -22,7 +22,7 @@ import br.gov.ans.padroes.tiss.schemas.v30301.RespostaElegibilidadeWS;
 @WebService(name = "tissVerificaElegibilidade_PortType", targetNamespace = "http://www.ans.gov.br/tiss/ws/tipos/tissverificaelegibilidade/v30301")
 @SOAPBinding(parameterStyle = SOAPBinding.ParameterStyle.BARE)
 @XmlSeeAlso({ObjectFactory.class,
-    org.w3._2000._09.xmldsig_.v30301.ObjectFactory.class
+    org.w3._2000._09.xmldsig_.ObjectFactory.class
 })
 public interface TissVerificaElegibilidadePortType {
 
