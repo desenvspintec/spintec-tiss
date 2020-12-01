@@ -8,9 +8,9 @@ import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 import javax.xml.bind.annotation.XmlSeeAlso;
 
-import br.gov.ans.padroes.tiss.schemas.ObjectFactory;
-import br.gov.ans.padroes.tiss.schemas.PedidoElegibilidadeWS;
-import br.gov.ans.padroes.tiss.schemas.RespostaElegibilidadeWS;
+import br.gov.ans.padroes.tiss.schemas.v30500.ObjectFactory;
+import br.gov.ans.padroes.tiss.schemas.v30500.PedidoElegibilidadeWS;
+import br.gov.ans.padroes.tiss.schemas.v30500.RespostaElegibilidadeWS;
 
 
 /**

@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "tissSolicitacaoProcedimento", targetNamespace = "http://www.ans.gov.br/tiss/ws/tipos/tisssolicitacaoprocedimento/v30500", wsdlLocation = "http://url_webservice/TISS30500OPS/tissSolicitacaoProcedimento?wsdl")
+@WebServiceClient(name = "tissSolicitacaoProcedimento", targetNamespace = "http://www.ans.gov.br/tiss/ws/tipos/tisssolicitacaoprocedimento/v30500", wsdlLocation = "http://tiss.unimedlitoral.com.br:8080/TISS30500OPS/tissSolicitacaoProcedimento?wsdl")
 public class TissSolicitacaoProcedimento
     extends Service
 {
@@ -30,7 +30,7 @@ public class TissSolicitacaoProcedimento
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://url_webservice/TISS30500OPS/tissSolicitacaoProcedimento?wsdl");
+            url = new URL("http://tiss.unimedlitoral.com.br:8080/TISS30500OPS/tissSolicitacaoProcedimento?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }

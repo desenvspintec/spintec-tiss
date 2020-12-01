@@ -2,7 +2,7 @@
 package br.gov.ans.tiss.ws.tipos.tisssolicitacaoprocedimento.v30500;
 
 import javax.xml.ws.WebFault;
-import br.gov.ans.padroes.tiss.schemas.TissFaultWS;
+import br.gov.ans.padroes.tiss.schemas.v30500.TissFaultWS;
 
 
 /**
@@ -46,7 +46,7 @@ public class TissFault
     /**
      * 
      * @return
-     *     returns fault bean: br.gov.ans.padroes.tiss.schemas.TissFaultWS
+     *     returns fault bean: br.gov.ans.padroes.tiss.schemas.v30500.TissFaultWS
      */
     public TissFaultWS getFaultInfo() {
         return faultInfo;

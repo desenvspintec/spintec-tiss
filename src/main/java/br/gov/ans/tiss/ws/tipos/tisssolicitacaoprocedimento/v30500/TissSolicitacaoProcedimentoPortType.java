@@ -7,8 +7,8 @@ import javax.jws.WebResult;
 import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 import javax.xml.bind.annotation.XmlSeeAlso;
-import br.gov.ans.padroes.tiss.schemas.AutorizacaoProcedimentoWS;
-import br.gov.ans.padroes.tiss.schemas.SolicitacaoProcedimentoWS;
+import br.gov.ans.padroes.tiss.schemas.v30500.AutorizacaoProcedimentoWS;
+import br.gov.ans.padroes.tiss.schemas.v30500.SolicitacaoProcedimentoWS;
 
 
 /**
@@ -20,7 +20,7 @@ import br.gov.ans.padroes.tiss.schemas.SolicitacaoProcedimentoWS;
 @WebService(name = "tissSolicitacaoProcedimento_PortType", targetNamespace = "http://www.ans.gov.br/tiss/ws/tipos/tisssolicitacaoprocedimento/v30500")
 @SOAPBinding(parameterStyle = SOAPBinding.ParameterStyle.BARE)
 @XmlSeeAlso({
-    br.gov.ans.padroes.tiss.schemas.ObjectFactory.class,
+    br.gov.ans.padroes.tiss.schemas.v30500.ObjectFactory.class,
     org.w3._2000._09.xmldsig_.ObjectFactory.class
 })
 public interface TissSolicitacaoProcedimentoPortType {
@@ -30,7 +30,7 @@ public interface TissSolicitacaoProcedimentoPortType {
      * 
      * @param solicitacaoProcedimento
      * @return
-     *     returns br.gov.ans.padroes.tiss.schemas.AutorizacaoProcedimentoWS
+     *     returns br.gov.ans.padroes.tiss.schemas.v30500.AutorizacaoProcedimentoWS
      * @throws TissFault
      */
     @WebMethod(operationName = "tissSolicitacaoProcedimento_Operation")
