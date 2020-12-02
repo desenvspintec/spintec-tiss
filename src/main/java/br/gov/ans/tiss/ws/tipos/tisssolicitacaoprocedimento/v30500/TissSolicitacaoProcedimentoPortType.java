@@ -36,7 +36,7 @@ public interface TissSolicitacaoProcedimentoPortType {
     @WebMethod(operationName = "tissSolicitacaoProcedimento_Operation")
     @WebResult(name = "autorizacaoProcedimentoWS", targetNamespace = "http://www.ans.gov.br/padroes/tiss/schemas", partName = "autorizacaoProcedimento")
     public AutorizacaoProcedimentoWS tissSolicitacaoProcedimentoOperation(
-        @WebParam(name = "solicitacaoProcedimentoWS", targetNamespace = "http://www.ans.gov.br/padroes/tiss/schemas", partName = "solicitacaoProcedimento")
+        @WebParam(name = "solicitacaoProcedimentoWS", targetNamespace = "http://www.ans.gov.br/padroes/tiss/schemas", partName = "prestadorParaOperadora")
         SolicitacaoProcedimentoWS solicitacaoProcedimento)
         throws TissFault
     ;

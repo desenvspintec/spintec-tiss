@@ -1,6 +1,8 @@
 
 package br.gov.ans.padroes.tiss.schemas.v30500;
 
+import br.gov.ans.padroes.tiss.schemas.v30500.custom.CtPrestadorParaOperadora;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -33,7 +35,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
     "cabecalho",
-    "solicitacaoProcedimento",
+    "prestadorParaOperadora",
     "hash",
     "signature"
 })
@@ -43,7 +45,7 @@ public class SolicitacaoProcedimentoWS implements ISolicitacao {
     @XmlElement(required = true)
     protected CabecalhoTransacao cabecalho;
     @XmlElement(required = true)
-    protected CtSolicitacaoProcedimento solicitacaoProcedimento;
+    protected CtPrestadorParaOperadora prestadorParaOperadora;
     @XmlElement(required = true)
     protected String hash;
     @XmlElement(name = "Signature")
@@ -74,27 +76,27 @@ public class SolicitacaoProcedimentoWS implements ISolicitacao {
     }
 
     /**
-     * Obt�m o valor da propriedade solicitacaoProcedimento.
+     * Obt�m o valor da propriedade prestadorParaOperadora.
      * 
      * @return
      *     possible object is
-     *     {@link CtSolicitacaoProcedimento }
+     *     {@link CtPrestadorParaOperadora }
      *     
      */
-    public CtSolicitacaoProcedimento getSolicitacaoProcedimento() {
-        return solicitacaoProcedimento;
+    public CtPrestadorParaOperadora getPrestadorParOperadora() {
+        return prestadorParaOperadora;
     }
 
     /**
-     * Define o valor da propriedade solicitacaoProcedimento.
+     * Define o valor da propriedade prestadorParaOperadora.
      * 
      * @param value
      *     allowed object is
-     *     {@link CtSolicitacaoProcedimento }
+     *     {@link CtPrestadorParaOperadora }
      *     
      */
-    public void setSolicitacaoProcedimento(CtSolicitacaoProcedimento value) {
-        this.solicitacaoProcedimento = value;
+    public void setPrestadorParaOperadora(CtPrestadorParaOperadora value) {
+        this.prestadorParaOperadora = value;
     }
 
     /**

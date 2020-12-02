@@ -1,6 +1,8 @@
 
 package br.gov.ans.padroes.tiss.schemas.v30500;
 
+import br.gov.ans.padroes.tiss.schemas.v30500.custom.CtPrestadorParaOperadora;
+
 import javax.xml.bind.annotation.XmlRegistry;
 
 
@@ -974,8 +976,16 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link CtPrestadorParaOperadora }
+     *
+     */
+    public CtPrestadorParaOperadora createCtPrestadorParaOperadora() {
+        return new CtPrestadorParaOperadora();
+    }
+
+    /**
      * Create an instance of {@link CtSolicitacaoProcedimento }
-     * 
+     *
      */
     public CtSolicitacaoProcedimento createCtSolicitacaoProcedimento() {
         return new CtSolicitacaoProcedimento();

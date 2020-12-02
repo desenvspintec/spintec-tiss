@@ -1,8 +1,11 @@
 
 package br.gov.ans.padroes.tiss.schemas.v30500;
 
+import br.gov.ans.padroes.tiss.schemas.v30500.custom.CtPrestadorParaOperadora;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
 
 
@@ -24,6 +27,9 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "ct_solicitacaoProcedimento")
+@XmlSeeAlso({
+        CtPrestadorParaOperadora.class
+})
 public class CtSolicitacaoProcedimento
     extends CtmSolicitacaoLote
 {

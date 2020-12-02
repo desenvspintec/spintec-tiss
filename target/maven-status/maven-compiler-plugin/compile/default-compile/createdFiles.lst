@@ -156,6 +156,7 @@ br\gov\ans\padroes\tiss\schemas\v30500\CtProtocoloRecebimentoRecurso.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtDemonstrativoCabecalho.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtDemonstrativoSolicitacao$DemonstrativoPagamento.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtGuiaRecursoLote.class
+br\gov\ans\padroes\tiss\schemas\v30500\custom\CtPrestadorParaOperadora.class
 br\gov\ans\padroes\tiss\schemas\v30500\ReciboComunicacaoWS.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmBeneficiarioComunicacao$DadosInternacao.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtProtocoloAnexoStatus.class
