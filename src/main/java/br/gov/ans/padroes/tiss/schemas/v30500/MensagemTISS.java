@@ -43,7 +43,7 @@ import org.w3._2000._09.xmldsig_.SignatureType;
     "signature"
 })
 @XmlRootElement(name = "mensagemTISS")
-public class MensagemTISS {
+public class MensagemTISS implements ISolicitacao {
 
     @XmlElement(required = true)
     protected CabecalhoTransacao cabecalho;
@@ -51,7 +51,7 @@ public class MensagemTISS {
     protected PrestadorOperadora prestadorParaOperadora;
     @XmlElement(required = true)
     protected Epilogo epilogo;
-    @XmlElement(name = "Signature", namespace = "http://www.w3.org/2000/09/xmldsig#")
+    @XmlElement(name = "Signature")
     protected SignatureType signature;
 
     /**

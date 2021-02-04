@@ -94,6 +94,7 @@ D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\s
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtAutorizacaoDados.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\org\w3\_2000\_09\xmldsig_\package-info.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtProcedimentoExecutadoOutras.java
+D:\projects\spintec\spintec\spintec-tiss\src\main\java\config\DateAdapter.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtoGuiaOdontologia.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\LoteGuiasWS.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtDemonstrativoRetorno.java
@@ -162,7 +163,6 @@ D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\s
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtContaMedicaResumo.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtRespostaRecursoItemOdonto.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtMotivoGlosa.java
-D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\SolicitacaoProcedimentoWS.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtSituacaoClinica.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\DmSimNao.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\LoteAnexoWS.java

@@ -192,6 +192,7 @@ br\gov\ans\padroes\tiss\schemas\v30500\CtElegibilidadeRecibo.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtoDemonstrativoOdontologia$DadosPagamentoPorData$TotalLiquidoPorData.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtProcedimentosComplementares.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtProtocoloDetalheAnexo.class
+config\DateAdapter.class
 org\w3\_2000\_09\xmldsig_\SPKIDataType.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmAutorizacaoServico$PrestadorAutorizado.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmDemonstrativoPagamento$TotaisDemonstrativo$TotaisBrutosDemonstrativo.class
@@ -245,7 +246,6 @@ br\gov\ans\padroes\tiss\schemas\v30500\CtRecursoGlosaRecebimento.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtBeneficiarioDados.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmBeneficiarioComunicacao.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtContaMedicaResumo$RelacaoGuias.class
-br\gov\ans\padroes\tiss\schemas\v30500\SolicitacaoProcedimentoWS.class
 br\gov\ans\tiss\ws\tipos\tisssolicitacaoprocedimento\v30500\TissSolicitacaoProcedimento.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtGuiaDadosAnexo$GlosaAnexo.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtProtocoloRecebimentoAnexo.class

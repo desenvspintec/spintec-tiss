@@ -38,7 +38,8 @@ import org.w3c.dom.Element;
 })
 public class SPKIDataType {
 
-    @XmlElementRef(name = "SPKISexp", namespace = "http://www.w3.org/2000/09/xmldsig#", type = JAXBElement.class)
+    //@XmlElementRef(name = "SPKISexp", namespace = "http://www.w3.org/2000/09/xmldsig#", type = JAXBElement.class)
+    @XmlElementRef(name = "SPKISexp", type = JAXBElement.class)
     @XmlAnyElement(lax = true)
     protected List<Object> spkiSexpAndAny;
 

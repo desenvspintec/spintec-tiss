@@ -1,14 +1,15 @@
 
 package br.gov.ans.tiss.ws.tipos.tisssolicitacaoprocedimento.v30500;
 
+import br.gov.ans.padroes.tiss.schemas.v30500.AutorizacaoProcedimentoWS;
+import br.gov.ans.padroes.tiss.schemas.v30500.MensagemTISS;
+
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebResult;
 import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 import javax.xml.bind.annotation.XmlSeeAlso;
-import br.gov.ans.padroes.tiss.schemas.v30500.AutorizacaoProcedimentoWS;
-import br.gov.ans.padroes.tiss.schemas.v30500.SolicitacaoProcedimentoWS;
 
 
 /**
@@ -28,7 +29,7 @@ public interface TissSolicitacaoProcedimentoPortType {
 
     /**
      * 
-     * @param solicitacaoProcedimento
+     * @param mensagemTISS
      * @return
      *     returns br.gov.ans.padroes.tiss.schemas.v30500.AutorizacaoProcedimentoWS
      * @throws TissFault
@@ -36,8 +37,8 @@ public interface TissSolicitacaoProcedimentoPortType {
     @WebMethod(operationName = "tissSolicitacaoProcedimento_Operation")
     @WebResult(name = "autorizacaoProcedimentoWS", targetNamespace = "http://www.ans.gov.br/padroes/tiss/schemas", partName = "autorizacaoProcedimento")
     public AutorizacaoProcedimentoWS tissSolicitacaoProcedimentoOperation(
-        @WebParam(name = "solicitacaoProcedimentoWS", targetNamespace = "http://www.ans.gov.br/padroes/tiss/schemas", partName = "prestadorParaOperadora")
-        SolicitacaoProcedimentoWS solicitacaoProcedimento)
+        @WebParam(name = "mensagemTISS", targetNamespace = "http://www.ans.gov.br/padroes/tiss/schemas", partName = "prestadorParaOperadora")
+                MensagemTISS mensagemTISS)
         throws TissFault
     ;
 

@@ -968,14 +968,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link SolicitacaoProcedimentoWS }
-     * 
-     */
-    public SolicitacaoProcedimentoWS createSolicitacaoProcedimentoWS() {
-        return new SolicitacaoProcedimentoWS();
-    }
-
-    /**
      * Create an instance of {@link CtPrestadorParaOperadora }
      *
      */

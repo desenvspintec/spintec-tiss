@@ -41,9 +41,13 @@ import org.w3c.dom.Element;
 })
 public class KeyValueType {
 
-    @XmlElementRefs({
+    /*@XmlElementRefs({
         @XmlElementRef(name = "DSAKeyValue", namespace = "http://www.w3.org/2000/09/xmldsig#", type = JAXBElement.class, required = false),
         @XmlElementRef(name = "RSAKeyValue", namespace = "http://www.w3.org/2000/09/xmldsig#", type = JAXBElement.class, required = false)
+    })*/
+    @XmlElementRefs({
+            @XmlElementRef(name = "DSAKeyValue", type = JAXBElement.class, required = false),
+            @XmlElementRef(name = "RSAKeyValue", type = JAXBElement.class, required = false)
     })
     @XmlMixed
     @XmlAnyElement(lax = true)

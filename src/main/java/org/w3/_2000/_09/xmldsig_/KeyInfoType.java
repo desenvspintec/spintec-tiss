@@ -52,7 +52,7 @@ import org.w3c.dom.Element;
 })
 public class KeyInfoType {
 
-    @XmlElementRefs({
+    /*@XmlElementRefs({
         @XmlElementRef(name = "KeyValue", namespace = "http://www.w3.org/2000/09/xmldsig#", type = JAXBElement.class, required = false),
         @XmlElementRef(name = "PGPData", namespace = "http://www.w3.org/2000/09/xmldsig#", type = JAXBElement.class, required = false),
         @XmlElementRef(name = "RetrievalMethod", namespace = "http://www.w3.org/2000/09/xmldsig#", type = JAXBElement.class, required = false),
@@ -60,6 +60,15 @@ public class KeyInfoType {
         @XmlElementRef(name = "KeyName", namespace = "http://www.w3.org/2000/09/xmldsig#", type = JAXBElement.class, required = false),
         @XmlElementRef(name = "SPKIData", namespace = "http://www.w3.org/2000/09/xmldsig#", type = JAXBElement.class, required = false),
         @XmlElementRef(name = "X509Data", namespace = "http://www.w3.org/2000/09/xmldsig#", type = JAXBElement.class, required = false)
+    })*/
+    @XmlElementRefs({
+        @XmlElementRef(name = "KeyValue", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "PGPData", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "RetrievalMethod", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "MgmtData", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "KeyName", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "SPKIData", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "X509Data", type = JAXBElement.class, required = false)
     })
     @XmlMixed
     @XmlAnyElement(lax = true)
