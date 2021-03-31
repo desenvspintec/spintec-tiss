@@ -6,7 +6,7 @@
 
     <groupId>br.com.spintec</groupId>
     <artifactId>spintec-tiss</artifactId>
-    <version>1.0.6</version>
+    <version>1.0.8</version>
 
     <properties>
         <maven.compiler.target>11</maven.compiler.target>
@@ -47,20 +47,10 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-shade-plugin</artifactId>
-                <version>3.0.0</version>
-                <configuration>
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>shade</goal>
-                        </goals>
-                    </execution>
-                </executions>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <finalName>${project.artifactId}</finalName>
     </build>
 </project>
