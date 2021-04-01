@@ -3,6 +3,9 @@ package br.gov.ans.tiss.ws.tipos.tisssolicitacaoprocedimento.v30500;
 
 import br.gov.ans.padroes.tiss.schemas.v30500.AutorizacaoProcedimentoWS;
 import br.gov.ans.padroes.tiss.schemas.v30500.MensagemTISS;
+import br.gov.ans.padroes.tiss.schemas.v30500.ObjectFactory;
+import br.gov.ans.padroes.tiss.schemas.v30500.SolicitacaoProcedimentoWS;
+import config.WsConfiguration;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -18,28 +21,28 @@ import javax.xml.bind.annotation.XmlSeeAlso;
  * Generated source version: 2.2
  * 
  */
-@WebService(name = "tissSolicitacaoProcedimento_PortType", targetNamespace = "http://www.ans.gov.br/tiss/ws/tipos/tisssolicitacaoprocedimento/v30500")
+@WebService(name = "tissSolicitacaoProcedimento_PortType", targetNamespace = WsConfiguration.TARGET_NAMESPACE_URL +  "tisssolicitacaoprocedimento/v30301")
 @SOAPBinding(parameterStyle = SOAPBinding.ParameterStyle.BARE)
 @XmlSeeAlso({
-    br.gov.ans.padroes.tiss.schemas.v30500.ObjectFactory.class,
-    org.w3._2000._09.xmldsig_.ObjectFactory.class
+        ObjectFactory.class,
+        org.w3._2000._09.xmldsig_.ObjectFactory.class
 })
 public interface TissSolicitacaoProcedimentoPortType {
 
 
     /**
-     * 
-     * @param mensagemTISS
+     *
+     * @param solicitacaoProcedimento
      * @return
-     *     returns br.gov.ans.padroes.tiss.schemas.v30500.AutorizacaoProcedimentoWS
+     *     returns br.gov.ans.padroes.tiss.schemas.AutorizacaoProcedimentoWS
      * @throws TissFault
      */
     @WebMethod(operationName = "tissSolicitacaoProcedimento_Operation")
     @WebResult(name = "autorizacaoProcedimentoWS", targetNamespace = "http://www.ans.gov.br/padroes/tiss/schemas", partName = "autorizacaoProcedimento")
     public AutorizacaoProcedimentoWS tissSolicitacaoProcedimentoOperation(
-        @WebParam(name = "mensagemTISS", targetNamespace = "http://www.ans.gov.br/padroes/tiss/schemas", partName = "prestadorParaOperadora")
-                MensagemTISS mensagemTISS)
-        throws TissFault
+            @WebParam(name = "solicitacaoProcedimentoWS", targetNamespace = "http://www.ans.gov.br/padroes/tiss/schemas", partName = "solicitacaoProcedimento")
+                    SolicitacaoProcedimentoWS solicitacaoProcedimento)
+            throws TissFault
     ;
 
 }

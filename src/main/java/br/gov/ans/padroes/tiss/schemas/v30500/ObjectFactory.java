@@ -1,24 +1,22 @@
 
 package br.gov.ans.padroes.tiss.schemas.v30500;
 
-import br.gov.ans.padroes.tiss.schemas.v30500.custom.CtPrestadorParaOperadora;
-
 import javax.xml.bind.annotation.XmlRegistry;
 
 
 /**
- * This object contains factory methods for each 
- * Java content interface and Java element interface 
- * generated in the br.gov.ans.padroes.tiss.schemas package. 
- * <p>An ObjectFactory allows you to programatically 
- * construct new instances of the Java representation 
- * for XML content. The Java representation of XML 
- * content can consist of schema derived interfaces 
- * and classes representing the binding of schema 
- * type definitions, element declarations and model 
- * groups.  Factory methods for each of these are 
+ * This object contains factory methods for each
+ * Java content interface and Java element interface
+ * generated in the br.gov.ans.padroes.tiss.schemas package.
+ * <p>An ObjectFactory allows you to programatically
+ * construct new instances of the Java representation
+ * for XML content. The Java representation of XML
+ * content can consist of schema derived interfaces
+ * and classes representing the binding of schema
+ * type definitions, element declarations and model
+ * groups.  Factory methods for each of these are
  * provided in this class.
- * 
+ *
  */
 @XmlRegistry
 public class ObjectFactory {
@@ -26,14 +24,14 @@ public class ObjectFactory {
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: br.gov.ans.padroes.tiss.schemas
-     * 
+     *
      */
     public ObjectFactory() {
     }
 
     /**
      * Create an instance of {@link ProtocoloRecebimentoAnexoWS }
-     * 
+     *
      */
     public ProtocoloRecebimentoAnexoWS createProtocoloRecebimentoAnexoWS() {
         return new ProtocoloRecebimentoAnexoWS();
@@ -41,7 +39,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGlosaRecibo }
-     * 
+     *
      */
     public CtGlosaRecibo createCtGlosaRecibo() {
         return new CtGlosaRecibo();
@@ -49,7 +47,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGlosaRecibo.OpcaoRecurso }
-     * 
+     *
      */
     public CtGlosaRecibo.OpcaoRecurso createCtGlosaReciboOpcaoRecurso() {
         return new CtGlosaRecibo.OpcaoRecurso();
@@ -57,7 +55,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmAutorizacaoOPME }
-     * 
+     *
      */
     public CtmAutorizacaoOPME createCtmAutorizacaoOPME() {
         return new CtmAutorizacaoOPME();
@@ -65,7 +63,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtProcedimentoAutorizado }
-     * 
+     *
      */
     public CtProcedimentoAutorizado createCtProcedimentoAutorizado() {
         return new CtProcedimentoAutorizado();
@@ -73,7 +71,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtProcedimentoExecutadoOdonto }
-     * 
+     *
      */
     public CtProcedimentoExecutadoOdonto createCtProcedimentoExecutadoOdonto() {
         return new CtProcedimentoExecutadoOdonto();
@@ -81,7 +79,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmInternacaoDados }
-     * 
+     *
      */
     public CtmInternacaoDados createCtmInternacaoDados() {
         return new CtmInternacaoDados();
@@ -89,7 +87,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmConsultaGuia }
-     * 
+     *
      */
     public CtmConsultaGuia createCtmConsultaGuia() {
         return new CtmConsultaGuia();
@@ -97,7 +95,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoAnexoSituacaoInicialnaGTO }
-     * 
+     *
      */
     public CtoAnexoSituacaoInicialnaGTO createCtoAnexoSituacaoInicialnaGTO() {
         return new CtoAnexoSituacaoInicialnaGTO();
@@ -105,7 +103,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtProtocoloDetalhe }
-     * 
+     *
      */
     public CtProtocoloDetalhe createCtProtocoloDetalhe() {
         return new CtProtocoloDetalhe();
@@ -113,7 +111,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtProtocoloDetalhe.GlosaProtocolo }
-     * 
+     *
      */
     public CtProtocoloDetalhe.GlosaProtocolo createCtProtocoloDetalheGlosaProtocolo() {
         return new CtProtocoloDetalhe.GlosaProtocolo();
@@ -121,7 +119,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtAnexoRecebimento }
-     * 
+     *
      */
     public CtAnexoRecebimento createCtAnexoRecebimento() {
         return new CtAnexoRecebimento();
@@ -129,7 +127,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmDemonstrativoAnaliseConta }
-     * 
+     *
      */
     public CtmDemonstrativoAnaliseConta createCtmDemonstrativoAnaliseConta() {
         return new CtmDemonstrativoAnaliseConta();
@@ -137,7 +135,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmDemonstrativoAnaliseConta.DadosConta }
-     * 
+     *
      */
     public CtmDemonstrativoAnaliseConta.DadosConta createCtmDemonstrativoAnaliseContaDadosConta() {
         return new CtmDemonstrativoAnaliseConta.DadosConta();
@@ -145,7 +143,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtContaMedicaResumo }
-     * 
+     *
      */
     public CtContaMedicaResumo createCtContaMedicaResumo() {
         return new CtContaMedicaResumo();
@@ -153,7 +151,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtContaMedicaResumo.RelacaoGuias }
-     * 
+     *
      */
     public CtContaMedicaResumo.RelacaoGuias createCtContaMedicaResumoRelacaoGuias() {
         return new CtContaMedicaResumo.RelacaoGuias();
@@ -161,7 +159,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtContaMedicaResumo.RelacaoGuias.DetalhesGuia }
-     * 
+     *
      */
     public CtContaMedicaResumo.RelacaoGuias.DetalhesGuia createCtContaMedicaResumoRelacaoGuiasDetalhesGuia() {
         return new CtContaMedicaResumo.RelacaoGuias.DetalhesGuia();
@@ -169,7 +167,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtIdentEquipeSADT }
-     * 
+     *
      */
     public CtIdentEquipeSADT createCtIdentEquipeSADT() {
         return new CtIdentEquipeSADT();
@@ -177,7 +175,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGuiaCancelamentoRecibo }
-     * 
+     *
      */
     public CtGuiaCancelamentoRecibo createCtGuiaCancelamentoRecibo() {
         return new CtGuiaCancelamentoRecibo();
@@ -185,7 +183,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGuiaCancelamentoRecibo.GuiasCanceladas }
-     * 
+     *
      */
     public CtGuiaCancelamentoRecibo.GuiasCanceladas createCtGuiaCancelamentoReciboGuiasCanceladas() {
         return new CtGuiaCancelamentoRecibo.GuiasCanceladas();
@@ -193,7 +191,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtOutrasDespesas }
-     * 
+     *
      */
     public CtOutrasDespesas createCtOutrasDespesas() {
         return new CtOutrasDespesas();
@@ -201,7 +199,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGuiaDados }
-     * 
+     *
      */
     public CtGuiaDados createCtGuiaDados() {
         return new CtGuiaDados();
@@ -209,7 +207,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGuiaDados.ProcedimentosRealizados }
-     * 
+     *
      */
     public CtGuiaDados.ProcedimentosRealizados createCtGuiaDadosProcedimentosRealizados() {
         return new CtGuiaDados.ProcedimentosRealizados();
@@ -217,7 +215,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGuiaDados.ProcedimentosRealizados.ProcedimentoRealizado }
-     * 
+     *
      */
     public CtGuiaDados.ProcedimentosRealizados.ProcedimentoRealizado createCtGuiaDadosProcedimentosRealizadosProcedimentoRealizado() {
         return new CtGuiaDados.ProcedimentosRealizados.ProcedimentoRealizado();
@@ -225,7 +223,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtElegibilidadeRecibo }
-     * 
+     *
      */
     public CtElegibilidadeRecibo createCtElegibilidadeRecibo() {
         return new CtElegibilidadeRecibo();
@@ -233,7 +231,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmSpSadtSolicitacaoGuia }
-     * 
+     *
      */
     public CtmSpSadtSolicitacaoGuia createCtmSpSadtSolicitacaoGuia() {
         return new CtmSpSadtSolicitacaoGuia();
@@ -241,7 +239,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmConsultaAtendimento }
-     * 
+     *
      */
     public CtmConsultaAtendimento createCtmConsultaAtendimento() {
         return new CtmConsultaAtendimento();
@@ -249,7 +247,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtProcedimentoExecutadoHonorIndiv }
-     * 
+     *
      */
     public CtProcedimentoExecutadoHonorIndiv createCtProcedimentoExecutadoHonorIndiv() {
         return new CtProcedimentoExecutadoHonorIndiv();
@@ -257,7 +255,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtProcedimentoExecutadoHonorIndiv.Profissionais }
-     * 
+     *
      */
     public CtProcedimentoExecutadoHonorIndiv.Profissionais createCtProcedimentoExecutadoHonorIndivProfissionais() {
         return new CtProcedimentoExecutadoHonorIndiv.Profissionais();
@@ -265,7 +263,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtProtocoloAnexoStatus }
-     * 
+     *
      */
     public CtProtocoloAnexoStatus createCtProtocoloAnexoStatus() {
         return new CtProtocoloAnexoStatus();
@@ -273,7 +271,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmRecursoGlosa }
-     * 
+     *
      */
     public CtmRecursoGlosa createCtmRecursoGlosa() {
         return new CtmRecursoGlosa();
@@ -281,7 +279,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmRecursoGlosa.OpcaoRecurso }
-     * 
+     *
      */
     public CtmRecursoGlosa.OpcaoRecurso createCtmRecursoGlosaOpcaoRecurso() {
         return new CtmRecursoGlosa.OpcaoRecurso();
@@ -289,7 +287,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmRecursoGlosa.OpcaoRecurso.RecursoGuia }
-     * 
+     *
      */
     public CtmRecursoGlosa.OpcaoRecurso.RecursoGuia createCtmRecursoGlosaOpcaoRecursoRecursoGuia() {
         return new CtmRecursoGlosa.OpcaoRecurso.RecursoGuia();
@@ -297,7 +295,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmRecursoGlosa.OpcaoRecurso.RecursoGuia.OpcaoRecursoGuia }
-     * 
+     *
      */
     public CtmRecursoGlosa.OpcaoRecurso.RecursoGuia.OpcaoRecursoGuia createCtmRecursoGlosaOpcaoRecursoRecursoGuiaOpcaoRecursoGuia() {
         return new CtmRecursoGlosa.OpcaoRecurso.RecursoGuia.OpcaoRecursoGuia();
@@ -305,7 +303,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoAnexoSituacaoInicial }
-     * 
+     *
      */
     public CtoAnexoSituacaoInicial createCtoAnexoSituacaoInicial() {
         return new CtoAnexoSituacaoInicial();
@@ -313,7 +311,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGuiaDadosOdonto }
-     * 
+     *
      */
     public CtGuiaDadosOdonto createCtGuiaDadosOdonto() {
         return new CtGuiaDadosOdonto();
@@ -321,7 +319,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGuiaDadosOdonto.ProcedimentosRealizados }
-     * 
+     *
      */
     public CtGuiaDadosOdonto.ProcedimentosRealizados createCtGuiaDadosOdontoProcedimentosRealizados() {
         return new CtGuiaDadosOdonto.ProcedimentosRealizados();
@@ -329,7 +327,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGuiaDadosOdonto.ProcedimentosRealizados.ProcedimentoRealizado }
-     * 
+     *
      */
     public CtGuiaDadosOdonto.ProcedimentosRealizados.ProcedimentoRealizado createCtGuiaDadosOdontoProcedimentosRealizadosProcedimentoRealizado() {
         return new CtGuiaDadosOdonto.ProcedimentosRealizados.ProcedimentoRealizado();
@@ -337,7 +335,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmHonorarioIndividualGuia }
-     * 
+     *
      */
     public CtmHonorarioIndividualGuia createCtmHonorarioIndividualGuia() {
         return new CtmHonorarioIndividualGuia();
@@ -345,7 +343,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmHonorarioIndividualGuia.LocalContratado }
-     * 
+     *
      */
     public CtmHonorarioIndividualGuia.LocalContratado createCtmHonorarioIndividualGuiaLocalContratado() {
         return new CtmHonorarioIndividualGuia.LocalContratado();
@@ -353,7 +351,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmAnexoSolicitacaoQuimio }
-     * 
+     *
      */
     public CtmAnexoSolicitacaoQuimio createCtmAnexoSolicitacaoQuimio() {
         return new CtmAnexoSolicitacaoQuimio();
@@ -361,7 +359,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoGuiaOdontologia }
-     * 
+     *
      */
     public CtoGuiaOdontologia createCtoGuiaOdontologia() {
         return new CtoGuiaOdontologia();
@@ -369,7 +367,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoGuiaOdontologia.ProcedimentosExecutados }
-     * 
+     *
      */
     public CtoGuiaOdontologia.ProcedimentosExecutados createCtoGuiaOdontologiaProcedimentosExecutados() {
         return new CtoGuiaOdontologia.ProcedimentosExecutados();
@@ -377,7 +375,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmAutorizacaoQuimio }
-     * 
+     *
      */
     public CtmAutorizacaoQuimio createCtmAutorizacaoQuimio() {
         return new CtmAutorizacaoQuimio();
@@ -385,7 +383,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoDemonstrativoOdontologia }
-     * 
+     *
      */
     public CtoDemonstrativoOdontologia createCtoDemonstrativoOdontologia() {
         return new CtoDemonstrativoOdontologia();
@@ -393,7 +391,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoDemonstrativoOdontologia.DadosPagamentoPorData }
-     * 
+     *
      */
     public CtoDemonstrativoOdontologia.DadosPagamentoPorData createCtoDemonstrativoOdontologiaDadosPagamentoPorData() {
         return new CtoDemonstrativoOdontologia.DadosPagamentoPorData();
@@ -401,7 +399,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoDemonstrativoOdontologia.DadosPagamentoPorData.Protocolos }
-     * 
+     *
      */
     public CtoDemonstrativoOdontologia.DadosPagamentoPorData.Protocolos createCtoDemonstrativoOdontologiaDadosPagamentoPorDataProtocolos() {
         return new CtoDemonstrativoOdontologia.DadosPagamentoPorData.Protocolos();
@@ -409,7 +407,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoDemonstrativoOdontologia.DadosPagamentoPorData.Protocolos.DadosPagamentoGuia }
-     * 
+     *
      */
     public CtoDemonstrativoOdontologia.DadosPagamentoPorData.Protocolos.DadosPagamentoGuia createCtoDemonstrativoOdontologiaDadosPagamentoPorDataProtocolosDadosPagamentoGuia() {
         return new CtoDemonstrativoOdontologia.DadosPagamentoPorData.Protocolos.DadosPagamentoGuia();
@@ -417,7 +415,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoDemonstrativoOdontologia.DadosPagamentoPorData.Protocolos.DadosPagamentoGuia.DadosPagamento }
-     * 
+     *
      */
     public CtoDemonstrativoOdontologia.DadosPagamentoPorData.Protocolos.DadosPagamentoGuia.DadosPagamento createCtoDemonstrativoOdontologiaDadosPagamentoPorDataProtocolosDadosPagamentoGuiaDadosPagamento() {
         return new CtoDemonstrativoOdontologia.DadosPagamentoPorData.Protocolos.DadosPagamentoGuia.DadosPagamento();
@@ -425,7 +423,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoDemonstrativoOdontologia.DadosPrestador }
-     * 
+     *
      */
     public CtoDemonstrativoOdontologia.DadosPrestador createCtoDemonstrativoOdontologiaDadosPrestador() {
         return new CtoDemonstrativoOdontologia.DadosPrestador();
@@ -433,7 +431,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoDemonstrativoOdontologia.CabecalhoDemonstrativoOdonto }
-     * 
+     *
      */
     public CtoDemonstrativoOdontologia.CabecalhoDemonstrativoOdonto createCtoDemonstrativoOdontologiaCabecalhoDemonstrativoOdonto() {
         return new CtoDemonstrativoOdontologia.CabecalhoDemonstrativoOdonto();
@@ -441,7 +439,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmDemonstrativoPagamento }
-     * 
+     *
      */
     public CtmDemonstrativoPagamento createCtmDemonstrativoPagamento() {
         return new CtmDemonstrativoPagamento();
@@ -449,7 +447,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmDemonstrativoPagamento.TotaisDemonstrativo }
-     * 
+     *
      */
     public CtmDemonstrativoPagamento.TotaisDemonstrativo createCtmDemonstrativoPagamentoTotaisDemonstrativo() {
         return new CtmDemonstrativoPagamento.TotaisDemonstrativo();
@@ -457,7 +455,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmDemonstrativoPagamento.Pagamentos }
-     * 
+     *
      */
     public CtmDemonstrativoPagamento.Pagamentos createCtmDemonstrativoPagamentoPagamentos() {
         return new CtmDemonstrativoPagamento.Pagamentos();
@@ -465,7 +463,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmDemonstrativoPagamento.Pagamentos.PagamentosPorData }
-     * 
+     *
      */
     public CtmDemonstrativoPagamento.Pagamentos.PagamentosPorData createCtmDemonstrativoPagamentoPagamentosPagamentosPorData() {
         return new CtmDemonstrativoPagamento.Pagamentos.PagamentosPorData();
@@ -473,7 +471,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmAutorizacaoRadio }
-     * 
+     *
      */
     public CtmAutorizacaoRadio createCtmAutorizacaoRadio() {
         return new CtmAutorizacaoRadio();
@@ -481,7 +479,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoAutorizacaoServico }
-     * 
+     *
      */
     public CtoAutorizacaoServico createCtoAutorizacaoServico() {
         return new CtoAutorizacaoServico();
@@ -489,7 +487,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoAutorizacaoServico.ProcedimentosAutorizados }
-     * 
+     *
      */
     public CtoAutorizacaoServico.ProcedimentosAutorizados createCtoAutorizacaoServicoProcedimentosAutorizados() {
         return new CtoAutorizacaoServico.ProcedimentosAutorizados();
@@ -497,7 +495,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtLoteAnexoStatus }
-     * 
+     *
      */
     public CtLoteAnexoStatus createCtLoteAnexoStatus() {
         return new CtLoteAnexoStatus();
@@ -505,7 +503,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtLoteStatus }
-     * 
+     *
      */
     public CtLoteStatus createCtLoteStatus() {
         return new CtLoteStatus();
@@ -513,7 +511,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtLoteStatus.GuiasTISS }
-     * 
+     *
      */
     public CtLoteStatus.GuiasTISS createCtLoteStatusGuiasTISS() {
         return new CtLoteStatus.GuiasTISS();
@@ -521,7 +519,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtRecursoGlosaRecebimento }
-     * 
+     *
      */
     public CtRecursoGlosaRecebimento createCtRecursoGlosaRecebimento() {
         return new CtRecursoGlosaRecebimento();
@@ -529,7 +527,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtRecursoGlosaRecebimento.GuiasRecurso }
-     * 
+     *
      */
     public CtRecursoGlosaRecebimento.GuiasRecurso createCtRecursoGlosaRecebimentoGuiasRecurso() {
         return new CtRecursoGlosaRecebimento.GuiasRecurso();
@@ -537,7 +535,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtRecursoGlosaRecebimento.GuiasRecurso.OpcaoRecursoGuia }
-     * 
+     *
      */
     public CtRecursoGlosaRecebimento.GuiasRecurso.OpcaoRecursoGuia createCtRecursoGlosaRecebimentoGuiasRecursoOpcaoRecursoGuia() {
         return new CtRecursoGlosaRecebimento.GuiasRecurso.OpcaoRecursoGuia();
@@ -545,7 +543,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtRecursoGlosaRecebimento.GuiasRecurso.OpcaoRecursoGuia.ItensGuia }
-     * 
+     *
      */
     public CtRecursoGlosaRecebimento.GuiasRecurso.OpcaoRecursoGuia.ItensGuia createCtRecursoGlosaRecebimentoGuiasRecursoOpcaoRecursoGuiaItensGuia() {
         return new CtRecursoGlosaRecebimento.GuiasRecurso.OpcaoRecursoGuia.ItensGuia();
@@ -553,7 +551,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtProtocoloStatus }
-     * 
+     *
      */
     public CtProtocoloStatus createCtProtocoloStatus() {
         return new CtProtocoloStatus();
@@ -561,7 +559,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoRecursoGlosaOdonto }
-     * 
+     *
      */
     public CtoRecursoGlosaOdonto createCtoRecursoGlosaOdonto() {
         return new CtoRecursoGlosaOdonto();
@@ -569,7 +567,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoRecursoGlosaOdonto.OpcaoRecurso }
-     * 
+     *
      */
     public CtoRecursoGlosaOdonto.OpcaoRecurso createCtoRecursoGlosaOdontoOpcaoRecurso() {
         return new CtoRecursoGlosaOdonto.OpcaoRecurso();
@@ -577,7 +575,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoRecursoGlosaOdonto.OpcaoRecurso.RecursoGuia }
-     * 
+     *
      */
     public CtoRecursoGlosaOdonto.OpcaoRecurso.RecursoGuia createCtoRecursoGlosaOdontoOpcaoRecursoRecursoGuia() {
         return new CtoRecursoGlosaOdonto.OpcaoRecurso.RecursoGuia();
@@ -585,7 +583,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoRecursoGlosaOdonto.OpcaoRecurso.RecursoGuia.RecursoProcedimento }
-     * 
+     *
      */
     public CtoRecursoGlosaOdonto.OpcaoRecurso.RecursoGuia.RecursoProcedimento createCtoRecursoGlosaOdontoOpcaoRecursoRecursoGuiaRecursoProcedimento() {
         return new CtoRecursoGlosaOdonto.OpcaoRecurso.RecursoGuia.RecursoProcedimento();
@@ -593,7 +591,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtOpmUtilizada }
-     * 
+     *
      */
     public CtOpmUtilizada createCtOpmUtilizada() {
         return new CtOpmUtilizada();
@@ -601,7 +599,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtOpmUtilizada.OPM }
-     * 
+     *
      */
     public CtOpmUtilizada.OPM createCtOpmUtilizadaOPM() {
         return new CtOpmUtilizada.OPM();
@@ -609,7 +607,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmInternacaoSolicitacaoGuia }
-     * 
+     *
      */
     public CtmInternacaoSolicitacaoGuia createCtmInternacaoSolicitacaoGuia() {
         return new CtmInternacaoSolicitacaoGuia();
@@ -617,7 +615,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtRespostaRecursoItemOdonto }
-     * 
+     *
      */
     public CtRespostaRecursoItemOdonto createCtRespostaRecursoItemOdonto() {
         return new CtRespostaRecursoItemOdonto();
@@ -625,7 +623,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtRespostaRecursoItemOdonto.RecursoProcedimento }
-     * 
+     *
      */
     public CtRespostaRecursoItemOdonto.RecursoProcedimento createCtRespostaRecursoItemOdontoRecursoProcedimento() {
         return new CtRespostaRecursoItemOdonto.RecursoProcedimento();
@@ -633,7 +631,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtSituacaoClinica }
-     * 
+     *
      */
     public CtSituacaoClinica createCtSituacaoClinica() {
         return new CtSituacaoClinica();
@@ -641,7 +639,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtIdentEquipe }
-     * 
+     *
      */
     public CtIdentEquipe createCtIdentEquipe() {
         return new CtIdentEquipe();
@@ -649,7 +647,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmAutorizacaoServico }
-     * 
+     *
      */
     public CtmAutorizacaoServico createCtmAutorizacaoServico() {
         return new CtmAutorizacaoServico();
@@ -657,7 +655,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtProcedimentoExecutadoInt }
-     * 
+     *
      */
     public CtProcedimentoExecutadoInt createCtProcedimentoExecutadoInt() {
         return new CtProcedimentoExecutadoInt();
@@ -665,7 +663,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmAnexoSolicitacaoRadio }
-     * 
+     *
      */
     public CtmAnexoSolicitacaoRadio createCtmAnexoSolicitacaoRadio() {
         return new CtmAnexoSolicitacaoRadio();
@@ -673,7 +671,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGuiaDadosAnexo }
-     * 
+     *
      */
     public CtGuiaDadosAnexo createCtGuiaDadosAnexo() {
         return new CtGuiaDadosAnexo();
@@ -681,7 +679,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGuiaDadosAnexo.ProcedimentosSolicitados }
-     * 
+     *
      */
     public CtGuiaDadosAnexo.ProcedimentosSolicitados createCtGuiaDadosAnexoProcedimentosSolicitados() {
         return new CtGuiaDadosAnexo.ProcedimentosSolicitados();
@@ -689,7 +687,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGuiaDadosAnexo.ProcedimentosSolicitados.ProcedimentoSolicitado }
-     * 
+     *
      */
     public CtGuiaDadosAnexo.ProcedimentosSolicitados.ProcedimentoSolicitado createCtGuiaDadosAnexoProcedimentosSolicitadosProcedimentoSolicitado() {
         return new CtGuiaDadosAnexo.ProcedimentosSolicitados.ProcedimentoSolicitado();
@@ -697,7 +695,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoOdontoSolicitacaoGuia }
-     * 
+     *
      */
     public CtoOdontoSolicitacaoGuia createCtoOdontoSolicitacaoGuia() {
         return new CtoOdontoSolicitacaoGuia();
@@ -705,7 +703,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtoOdontoSolicitacaoGuia.ProcedimentosSolicitados }
-     * 
+     *
      */
     public CtoOdontoSolicitacaoGuia.ProcedimentosSolicitados createCtoOdontoSolicitacaoGuiaProcedimentosSolicitados() {
         return new CtoOdontoSolicitacaoGuia.ProcedimentosSolicitados();
@@ -713,7 +711,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmProrrogacaoSolicitacaoGuia }
-     * 
+     *
      */
     public CtmProrrogacaoSolicitacaoGuia createCtmProrrogacaoSolicitacaoGuia() {
         return new CtmProrrogacaoSolicitacaoGuia();
@@ -721,7 +719,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGlosaReciboOdonto }
-     * 
+     *
      */
     public CtGlosaReciboOdonto createCtGlosaReciboOdonto() {
         return new CtGlosaReciboOdonto();
@@ -729,7 +727,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGlosaReciboOdonto.OpcaoRecurso }
-     * 
+     *
      */
     public CtGlosaReciboOdonto.OpcaoRecurso createCtGlosaReciboOdontoOpcaoRecurso() {
         return new CtGlosaReciboOdonto.OpcaoRecurso();
@@ -737,7 +735,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmSpSadtGuia }
-     * 
+     *
      */
     public CtmSpSadtGuia createCtmSpSadtGuia() {
         return new CtmSpSadtGuia();
@@ -745,7 +743,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmAnexoSolicitacaoOPME }
-     * 
+     *
      */
     public CtmAnexoSolicitacaoOPME createCtmAnexoSolicitacaoOPME() {
         return new CtmAnexoSolicitacaoOPME();
@@ -753,7 +751,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmAnexoSolicitacaoOPME.OpmeSolicitadas }
-     * 
+     *
      */
     public CtmAnexoSolicitacaoOPME.OpmeSolicitadas createCtmAnexoSolicitacaoOPMEOpmeSolicitadas() {
         return new CtmAnexoSolicitacaoOPME.OpmeSolicitadas();
@@ -761,7 +759,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmInternacaoResumoGuia }
-     * 
+     *
      */
     public CtmInternacaoResumoGuia createCtmInternacaoResumoGuia() {
         return new CtmInternacaoResumoGuia();
@@ -769,7 +767,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link OperadoraPrestador }
-     * 
+     *
      */
     public OperadoraPrestador createOperadoraPrestador() {
         return new OperadoraPrestador();
@@ -777,7 +775,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtDemonstrativoSolicitacao }
-     * 
+     *
      */
     public CtDemonstrativoSolicitacao createCtDemonstrativoSolicitacao() {
         return new CtDemonstrativoSolicitacao();
@@ -785,7 +783,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtDemonstrativoSolicitacao.DemonstrativoAnalise }
-     * 
+     *
      */
     public CtDemonstrativoSolicitacao.DemonstrativoAnalise createCtDemonstrativoSolicitacaoDemonstrativoAnalise() {
         return new CtDemonstrativoSolicitacao.DemonstrativoAnalise();
@@ -793,7 +791,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtDemonstrativoSolicitacao.DemonstrativoPagamento }
-     * 
+     *
      */
     public CtDemonstrativoSolicitacao.DemonstrativoPagamento createCtDemonstrativoSolicitacaoDemonstrativoPagamento() {
         return new CtDemonstrativoSolicitacao.DemonstrativoPagamento();
@@ -801,7 +799,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmGuiaLote }
-     * 
+     *
      */
     public CtmGuiaLote createCtmGuiaLote() {
         return new CtmGuiaLote();
@@ -809,7 +807,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtDemonstrativoRetorno }
-     * 
+     *
      */
     public CtDemonstrativoRetorno createCtDemonstrativoRetorno() {
         return new CtDemonstrativoRetorno();
@@ -817,7 +815,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtRespostaGlosa }
-     * 
+     *
      */
     public CtRespostaGlosa createCtRespostaGlosa() {
         return new CtRespostaGlosa();
@@ -825,7 +823,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtAnexoLote }
-     * 
+     *
      */
     public CtAnexoLote createCtAnexoLote() {
         return new CtAnexoLote();
@@ -833,7 +831,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtmBeneficiarioComunicacao }
-     * 
+     *
      */
     public CtmBeneficiarioComunicacao createCtmBeneficiarioComunicacao() {
         return new CtmBeneficiarioComunicacao();
@@ -841,7 +839,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGuiaCancelamento }
-     * 
+     *
      */
     public CtGuiaCancelamento createCtGuiaCancelamento() {
         return new CtGuiaCancelamento();
@@ -849,7 +847,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CabecalhoTransacao }
-     * 
+     *
      */
     public CabecalhoTransacao createCabecalhoTransacao() {
         return new CabecalhoTransacao();
@@ -857,7 +855,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CabecalhoTransacao.Origem }
-     * 
+     *
      */
     public CabecalhoTransacao.Origem createCabecalhoTransacaoOrigem() {
         return new CabecalhoTransacao.Origem();
@@ -865,7 +863,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CancelaGuiaWS }
-     * 
+     *
      */
     public CancelaGuiaWS createCancelaGuiaWS() {
         return new CancelaGuiaWS();
@@ -873,7 +871,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Signature }
-     * 
+     *
      */
     public Signature createSignature() {
         return new Signature();
@@ -881,7 +879,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link LoteRecursoGlosaWS }
-     * 
+     *
      */
     public LoteRecursoGlosaWS createLoteRecursoGlosaWS() {
         return new LoteRecursoGlosaWS();
@@ -889,7 +887,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtGuiaRecursoLote }
-     * 
+     *
      */
     public CtGuiaRecursoLote createCtGuiaRecursoLote() {
         return new CtGuiaRecursoLote();
@@ -897,7 +895,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ComunicacaoBeneficiarioWS }
-     * 
+     *
      */
     public ComunicacaoBeneficiarioWS createComunicacaoBeneficiarioWS() {
         return new ComunicacaoBeneficiarioWS();
@@ -905,7 +903,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ProtocoloRecebimentoRecursoWS }
-     * 
+     *
      */
     public ProtocoloRecebimentoRecursoWS createProtocoloRecebimentoRecursoWS() {
         return new ProtocoloRecebimentoRecursoWS();
@@ -913,7 +911,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtRecebimentoRecurso }
-     * 
+     *
      */
     public CtRecebimentoRecurso createCtRecebimentoRecurso() {
         return new CtRecebimentoRecurso();
@@ -921,7 +919,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link AutorizacaoProcedimentoWS }
-     * 
+     *
      */
     public AutorizacaoProcedimentoWS createAutorizacaoProcedimentoWS() {
         return new AutorizacaoProcedimentoWS();
@@ -929,7 +927,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtSituacaoAutorizacao }
-     * 
+     *
      */
     public CtSituacaoAutorizacao createCtSituacaoAutorizacao() {
         return new CtSituacaoAutorizacao();
@@ -937,7 +935,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ReciboCancelaGuiaWS }
-     * 
+     *
      */
     public ReciboCancelaGuiaWS createReciboCancelaGuiaWS() {
         return new ReciboCancelaGuiaWS();
@@ -945,7 +943,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtReciboCancelaGuia }
-     * 
+     *
      */
     public CtReciboCancelaGuia createCtReciboCancelaGuia() {
         return new CtReciboCancelaGuia();
@@ -953,7 +951,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SituacaoProtocoloWS }
-     * 
+     *
      */
     public SituacaoProtocoloWS createSituacaoProtocoloWS() {
         return new SituacaoProtocoloWS();
@@ -961,18 +959,18 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CtSituacaoProtocolo }
-     * 
+     *
      */
     public CtSituacaoProtocolo createCtSituacaoProtocolo() {
         return new CtSituacaoProtocolo();
     }
 
     /**
-     * Create an instance of {@link CtPrestadorParaOperadora }
+     * Create an instance of {@link SolicitacaoProcedimentoWS }
      *
      */
-    public CtPrestadorParaOperadora createCtPrestadorParaOperadora() {
-        return new CtPrestadorParaOperadora();
+    public SolicitacaoProcedimentoWS createSolicitacaoProcedimentoWS() {
+        return new SolicitacaoProcedimentoWS();
     }
 
     /**

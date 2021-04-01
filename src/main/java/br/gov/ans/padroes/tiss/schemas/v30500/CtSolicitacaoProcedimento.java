@@ -1,19 +1,16 @@
 
 package br.gov.ans.padroes.tiss.schemas.v30500;
 
-import br.gov.ans.padroes.tiss.schemas.v30500.custom.CtPrestadorParaOperadora;
-
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
 
 
 /**
  * <p>Classe Java de ct_solicitacaoProcedimento complex type.
- * 
+ *
  * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
- * 
+ *
  * <pre>
  * &lt;complexType name="ct_solicitacaoProcedimento">
  *   &lt;complexContent>
@@ -22,14 +19,11 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "ct_solicitacaoProcedimento")
-@XmlSeeAlso({
-        CtPrestadorParaOperadora.class
-})
 public class CtSolicitacaoProcedimento
     extends CtmSolicitacaoLote
 {

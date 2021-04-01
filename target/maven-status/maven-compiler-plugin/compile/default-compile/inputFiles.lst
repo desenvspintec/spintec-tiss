@@ -16,12 +16,15 @@ D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\tiss\ws\tipos\
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtGlosaReciboOdonto.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtFontePagadora.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\Signature.java
+D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\OrigemI.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtmAutorizacaoInternacao.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtRecursoGlosaRecebimento.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\org\w3\_2000\_09\xmldsig_\SignatureMethodType.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtProtocoloRecebimento.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtmAutorizacaoRadio.java
+D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\DestinoI.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\RespostaElegibilidadeWS.java
+D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\PedidoSolicitacaoProcedimentoWSI.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\org\w3\_2000\_09\xmldsig_\ObjectType.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\tiss\ws\tipos\tisssolicitacaoprocedimento\v30500\TissSolicitacaoProcedimento.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtProcedimentoExecutadoSadt.java
@@ -51,6 +54,7 @@ D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\s
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtmInternacaoDadosSaida.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtProcedimentoExecutado.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtPagamentoResumo.java
+D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\DmTipoTransacaoI.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtContratadoDados.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtIntervaloCiclos.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtAutorizacaoSADT.java
@@ -61,6 +65,7 @@ D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\s
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtProcedimentoExecutadoInt.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtAnexoLote.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtmSolicitacaoLote.java
+D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\IdentificacaoTransacaoI.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtRespostaGlosaGuiaMedica.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtmBeneficiarioComunicacaoRecibo.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CancelaGuiaWS.java
@@ -81,6 +86,7 @@ D:\projects\spintec\spintec\spintec-tiss\src\main\java\org\w3\_2000\_09\xmldsig_
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtElegibilidadeVerifica.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\DmTipoEvento.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtmAutorizacaoProrrogacao.java
+D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\IdentificacaoPrestadorI.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtmAutorizacaoServico.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\ObjectFactory.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\PedidoElegibilidadeWS.java
@@ -115,6 +121,7 @@ D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\s
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtDadosComplementaresBeneficiario.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtProtocoloRecebimentoAnexo.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\org\w3\_2000\_09\xmldsig_\KeyValueType.java
+D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\MensagemTissWSI.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtDrogasSolicitadas.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\AutorizacaoProcedimentoWS.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\tiss\ws\tipos\tissverificaelegibilidade\v30301\TissFault.java
@@ -129,11 +136,13 @@ D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\s
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtOpmUtilizada.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtoOdontoSolicitacaoGuia.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtmInternacaoSolicitacaoGuia.java
+D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtSolicitacaoProcedimentoI.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtoRecursoGlosaOdonto.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtAutorizacaoSolicitaStatus.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtAnexoRecebimento.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtReciboComunicacao.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtProcedimentosComplementares.java
+D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtPrestadorIdentificacaoI.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CabecalhoTransacao.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\MensagemTISS.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtOpmeDados.java
@@ -163,6 +172,7 @@ D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\s
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtContaMedicaResumo.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtRespostaRecursoItemOdonto.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtMotivoGlosa.java
+D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\SolicitacaoProcedimentoWS.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtSituacaoClinica.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\DmSimNao.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\LoteAnexoWS.java
@@ -170,6 +180,7 @@ D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\s
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtGuiaDados.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\ProtocoloRecebimentoAnexoWS.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtRespostaGlosa.java
+D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CabecalhoTransacaoTISSI.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtmAnexoSolicitacaoOPME.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtDiagnosticoOncologico.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtmAutorizacaoQuimio.java
@@ -178,7 +189,6 @@ D:\projects\spintec\spintec\spintec-tiss\src\main\java\org\w3\_2000\_09\xmldsig_
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\org\w3\_2000\_09\xmldsig_\SignaturePropertyType.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\SituacaoProtocoloWS.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\CtValorCreditoDesconto.java
-D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\custom\CtPrestadorParaOperadora.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\org\w3\_2000\_09\xmldsig_\RSAKeyValueType.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\DmTabelasDiagnostico.java
 D:\projects\spintec\spintec\spintec-tiss\src\main\java\br\gov\ans\padroes\tiss\schemas\v30500\DmTipoTransacaoQualidade.java

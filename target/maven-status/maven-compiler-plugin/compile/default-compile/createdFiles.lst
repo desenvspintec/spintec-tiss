@@ -152,14 +152,15 @@ br\gov\ans\padroes\tiss\schemas\v30500\CtmDemonstrativoAnaliseConta.class
 org\w3\_2000\_09\xmldsig_\KeyValueType.class
 org\w3\_2000\_09\xmldsig_\PGPDataType.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtoOdontoSolicitacaoGuia$ProcedimentosSolicitados.class
+br\gov\ans\padroes\tiss\schemas\v30500\OrigemI.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtProtocoloRecebimentoRecurso.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtDemonstrativoCabecalho.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtDemonstrativoSolicitacao$DemonstrativoPagamento.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtGuiaRecursoLote.class
-br\gov\ans\padroes\tiss\schemas\v30500\custom\CtPrestadorParaOperadora.class
 br\gov\ans\padroes\tiss\schemas\v30500\ReciboComunicacaoWS.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmBeneficiarioComunicacao$DadosInternacao.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtProtocoloAnexoStatus.class
+br\gov\ans\padroes\tiss\schemas\v30500\IdentificacaoPrestadorI.class
 org\w3\_2000\_09\xmldsig_\RetrievalMethodType.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmAnexoSolicitante.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmInternacaoSolicitacaoGuia$DadosHospitalSolicitado.class
@@ -184,6 +185,7 @@ br\gov\ans\padroes\tiss\schemas\v30500\CtoGuiaOdontologia$ProcedimentosExecutado
 br\gov\ans\padroes\tiss\schemas\v30500\CtProtocoloDetalhe$DadosGuiasProtocolo.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtoDemonstrativoOdontologia$DadosPagamentoPorData$Protocolos.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtGuiaDadosOdonto$ProcedimentosRealizados$ProcedimentoRealizado.class
+br\gov\ans\padroes\tiss\schemas\v30500\IdentificacaoTransacaoI.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtPagamentoResumo.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmSolicitacaoLote.class
 br\gov\ans\padroes\tiss\schemas\v30500\MensagemTISS.class
@@ -246,6 +248,7 @@ br\gov\ans\padroes\tiss\schemas\v30500\CtRecursoGlosaRecebimento.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtBeneficiarioDados.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmBeneficiarioComunicacao.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtContaMedicaResumo$RelacaoGuias.class
+br\gov\ans\padroes\tiss\schemas\v30500\SolicitacaoProcedimentoWS.class
 br\gov\ans\tiss\ws\tipos\tisssolicitacaoprocedimento\v30500\TissSolicitacaoProcedimento.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtGuiaDadosAnexo$GlosaAnexo.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtProtocoloRecebimentoAnexo.class
@@ -262,11 +265,13 @@ br\gov\ans\padroes\tiss\schemas\v30500\CtProcedimentoAutorizado.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtoAnexoSituacaoInicial$CtSituacaoInicial.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtIdentEquipe.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtSituacaoProtocolo.class
+br\gov\ans\padroes\tiss\schemas\v30500\MensagemTissWSI.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtAutorizacaoInternacao.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtoRecursoGlosaOdonto$OpcaoRecurso$RecursoGuia$RecursoProcedimento.class
 br\gov\ans\padroes\tiss\schemas\v30500\ISolicitacao.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtGuiaValorTotalSADT.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtoAnexoSituacaoInicialnaGTO$CtSituacaoInicial.class
+br\gov\ans\padroes\tiss\schemas\v30500\DmTipoTransacaoI.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmAutorizacaoRadio$MotivosNegativa.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtGuiaCancelamento.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmProrrogacaoSolicitacaoGuia$ProcedimentosAdicionais.class
@@ -287,6 +292,7 @@ br\gov\ans\padroes\tiss\schemas\v30500\SolicitacaoStatusProtocoloWS.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmConsultaAtendimento.class
 org\w3\_2000\_09\xmldsig_\ObjectType.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtGlosaReciboOdonto$OpcaoRecurso$RecursoProtocolo.class
+br\gov\ans\padroes\tiss\schemas\v30500\CtSolicitacaoProcedimentoI.class
 br\gov\ans\padroes\tiss\schemas\v30500\ProtocoloRecebimentoRecursoWS.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtGuiaRecurso.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtoDemonstrativoOdontologia$DadosPrestador.class
@@ -305,6 +311,7 @@ br\gov\ans\tiss\ws\tipos\tissverificaelegibilidade\v30301\TissVerificaElegibilid
 br\gov\ans\padroes\tiss\schemas\v30500\CtmProrrogacaoSolicitacaoGuia$DadosInternacao.class
 br\gov\ans\padroes\tiss\schemas\v30500\AutorizacaoProcedimentoWS.class
 br\gov\ans\padroes\tiss\schemas\v30500\OperadoraPrestador$RecebimentoAnexo.class
+br\gov\ans\padroes\tiss\schemas\v30500\PedidoSolicitacaoProcedimentoWSI.class
 org\w3\_2000\_09\xmldsig_\SignedInfoType.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtGuiaCancelamento$GuiasCancelamento.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtGuiaDados$ProcedimentosRealizados$ProcedimentoRealizado.class
@@ -320,6 +327,7 @@ br\gov\ans\padroes\tiss\schemas\v30500\CtoAutorizacaoServico.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmGuiaLote$GuiasTISS.class
 org\w3\_2000\_09\xmldsig_\DSAKeyValueType.class
 br\gov\ans\padroes\tiss\schemas\v30500\CancelaGuiaWS.class
+br\gov\ans\padroes\tiss\schemas\v30500\CabecalhoTransacaoTISSI.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtOutrasDespesas.class
 org\w3\_2000\_09\xmldsig_\X509DataType.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtGlosaRecibo$OpcaoRecurso.class
@@ -343,6 +351,7 @@ br\gov\ans\padroes\tiss\schemas\v30500\CtmDemonstrativoPagamento$Pagamentos$Paga
 br\gov\ans\padroes\tiss\schemas\v30500\CtoDemonstrativoOdontologia$DebCredDemonstrativo.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtProtocoloRecebimento.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmAnexoSolicitacaoOPME$OpmeSolicitadas$OpmeSolicitada.class
+br\gov\ans\padroes\tiss\schemas\v30500\CtPrestadorIdentificacaoI.class
 br\gov\ans\padroes\tiss\schemas\v30500\StTissFault.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtGuiaCabecalho.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmAnexoSolicitacaoQuimio$DrogasSolicitadas.class
@@ -352,6 +361,7 @@ br\gov\ans\padroes\tiss\schemas\v30500\CtmAutorizacaoProrrogacao.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtSituacaoAutorizacao.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmAutorizacaoInternacao.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtoDemonstrativoOdontologia$DadosPagamentoPorData$Protocolos$DadosPagamentoGuia$DadosPagamento.class
+br\gov\ans\padroes\tiss\schemas\v30500\DestinoI.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtAutorizacaoDados.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtGuiaCancelamentoRecibo$GuiasCanceladas.class
 br\gov\ans\padroes\tiss\schemas\v30500\CtmInternacaoSolicitacaoGuia$AnexoClinico.class
